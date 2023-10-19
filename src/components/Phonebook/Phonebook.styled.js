@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 30%;
+  width: 40%;
 `;
 
 
@@ -15,14 +15,18 @@ export const Label = styled.label`
   input {
     min-height: 40px;
     padding: 0px 5px;
+    border-radius:10px;
+    border: 1.5px solid black;
   }
 `;
 
 export const Button = styled.button`
   display: inline-block;
+  min-width: 125px;
+  min-height: 45px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid black;
+  border: none;
   background-color: lightblue;
   cursor: pointer;
   transition: 300ms linear;
@@ -30,7 +34,7 @@ export const Button = styled.button`
   font-weight: 500;
 
   &:hover {
-    background-color: darkblue;
-    color:white;
+    background-color: #4682b4;
+    color: white;
   }
 `;

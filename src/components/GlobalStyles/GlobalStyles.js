@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
   font-family: 'Helvetica Neue';
   font-size:18px;
   background-color: #FFFAF0	;
+  /* background-color: #E6E6FA	 */
   }
   code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

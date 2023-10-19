@@ -14,10 +14,14 @@ export const List = styled.ul`
     margin-bottom: 10px;
   }
   button {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    min-width: 80px;
     padding: 5px 10px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: none;
     background-color: lightblue;
     cursor: pointer;
     transition: 300ms linear;
@@ -26,7 +30,7 @@ export const List = styled.ul`
     font-size: 18px;
 
     &:hover {
-      background-color: darkblue;
+      background-color: #4682b4;
       color: white;
     }
   }
